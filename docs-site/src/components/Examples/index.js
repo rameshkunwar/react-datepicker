@@ -74,7 +74,8 @@ import OnCalendarChangeStateCallbacks from "../../examples/onCalendarOpenStateCa
 import CustomTimeInput from "../../examples/customTimeInput";
 
 import "./style.scss";
-import "react-datepicker/dist/react-datepicker.css";
+// import "react-datepicker/dist/react-datepicker.css";
+import "../../../../dist/react-datepicker.css";
 
 export default class exampleComponents extends React.Component {
   componentDidMount() {

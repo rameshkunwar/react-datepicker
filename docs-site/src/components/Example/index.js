@@ -1,10 +1,15 @@
 import React, { useState } from "react";
 import PropTypes from "prop-types";
 import { LiveProvider, LiveEditor, LiveError, LivePreview } from "react-live";
+// import DatePicker, {
+//   registerLocale,
+//   CalendarContainer
+// } from "react-datepicker";
 import DatePicker, {
   registerLocale,
   CalendarContainer
-} from "react-datepicker";
+} from "../../../../dist/react-datepicker";
+
 import * as DateFNS from "date-fns/esm";
 import fi from "date-fns/locale/fi";
 import ptBR from "date-fns/locale/pt-BR";
